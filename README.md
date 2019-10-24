@@ -11,7 +11,7 @@
 ## 201909-4
 题解见[博客](https://onwaier.blog.csdn.net/article/details/102727324)
 
-**注意点 **
+**注意点**
 - #define NUM 1000000000 会溢出 ;
 - res[t]不用排序 
 
