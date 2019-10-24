@@ -11,9 +11,9 @@
 ## 201909-4
 题解见[博客](https://onwaier.blog.csdn.net/article/details/102727324)
 注意点 
-1. #define NUM 1000000000 会溢出 ;
-2. res[t]不用排序 
+- #define NUM 1000000000 会溢出 ;
+- res[t]不用排序 
 技巧 
-1. id用哈希函数 type*10^9 + comm   方便映射 ;
-2. map存储对应id在set中插入的位置 关联式容器插入删除元素不影响其它结点的迭代器 ;
-3. set.insert()的返回值是pair<set<T>::iterator, bool> 
+- id用哈希函数 type*10^9 + comm   方便映射 ;
+- map存储对应id在set中插入的位置 关联式容器插入删除元素不影响其它结点的迭代器 ;
+- set.insert()的返回值是pair<set<T>::iterator, bool> 
