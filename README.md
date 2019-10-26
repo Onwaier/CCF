@@ -19,3 +19,8 @@
 - id用哈希函数 type*10^9 + comm   方便映射 ;
 - map存储对应id在set中插入的位置 关联式容器插入删除元素不影响其它结点的迭代器 ;
 - set.insert()的返回值是pair<set<T>::iterator, bool> 
+
+## 201903-1
+题解见[博客](https://onwaier.blog.csdn.net/article/details/102759653)
+**注意点**
+中位数可能为整数或者小数，需要分情况考虑。
