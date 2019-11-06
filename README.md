@@ -38,5 +38,13 @@ s/102727324)
 
 ## 201903-4
 题解见[博客](https://onwaier.blog.csdn.net/article/details/102907704)
+
 ## 201812-1
 题解见[博客](https://onwaier.blog.csdn.net/article/details/102922755)
+
+## 201812-2
+题解见[博客](https://onwaier.blog.csdn.net/article/details/102936182)
+
+**注意**:
+1. 模拟前可以将当前所花时间mod红绿灯黄一个周期时间之和，可以节省时间，不然会超时。因为t会很大的。
+2. 因为t会很大，所以数据类型不能用int。我用的是long long 。
