@@ -30,23 +30,6 @@ int getWeek(int year, int month, int day){//获取某天是星期几 (并判断日期是否合法
 	return sum % 7; 
 }
 
-int getDay(int year, int month, int day)
-{
-	days[2] = 28;
-	if (year % 4 == 0)
-		days[2] = 29;
-	if (day > days[month])	// 该日期不存在
-		return -1;
- 
-	int sum = 4, q = year - 1970;
-	sum += q / 4 * 5 + q % 4;	// 每隔四年，sum应该+5
-	if (q % 4 == 3)	// 这时说明 year-1 为闰年
-		++sum;
-	for (int i = 1; i != month; ++i)
-		sum += days[i];
-	sum += day - 1;
-	return sum % 7;
-}
 
 int toNum(string s){
 	if(isalpha(s[0])){
