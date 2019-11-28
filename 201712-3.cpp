@@ -3,7 +3,7 @@ using namespace std;
 
 #define MAX (20 + 5)
 typedef long long int LL ;
-string mons[] = {"Jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"};//不区分大小写 
+string mons[] = {"jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"};//不区分大小写 
 string weeks[] = {"sun", "mon", "tue", "wed", "thu", "fri", "sat"};//不区分大小写 
 int range[] = {60, 24, 31, 12, 7};
 int days[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
