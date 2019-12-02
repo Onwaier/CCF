@@ -78,3 +78,17 @@ s/102727324)
 
 ## 201803-4
 题解见[博客](https://blog.csdn.net/happyeveryday62/article/details/103213996)
+
+## 201712-1
+题解见[博客](https://blog.csdn.net/happyeveryday62/article/details/103240352)
+
+## 201712-2
+题解见[博客](https://blog.csdn.net/happyeveryday62/article/details/103255158)
+
+## 201712-3
+模拟
+题解见[博客](https://blog.csdn.net/happyeveryday62/article/details/103295988)
+
+## 201712-4
+Dijstra最短路变形
+题解见[博客](https://onwaier.blog.csdn.net/article/details/103317477)
